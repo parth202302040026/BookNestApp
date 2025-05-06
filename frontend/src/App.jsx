@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import { AuthProvide } from "./context/AuthContext";
 import { useEffect, useState } from "react";
 import Loading from "./components/Loading";
-import "C://Users//parth//Downloads//mern-app//mern-app//frontend//dist//output.css"; // Adjust the path as needed
+import "../dist/output.css"; // Adjust the path as needed
 
 function App() {
   const [loading, setLoading] = useState(true);
